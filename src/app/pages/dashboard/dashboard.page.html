@@ -1,0 +1,38 @@
+<ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-menu-button></ion-menu-button>
+  </ion-buttons>
+  <ion-title>Menu</ion-title>
+</ion-toolbar>
+
+<ion-content>
+    <ion-list>
+  
+      <ion-item (click)="showToast()">
+        <img src="../../assets/poke_yellow.png" alt="" class="image">
+        <ion-label >Pokémon Yellow</ion-label>
+      </ion-item>
+  
+      <ion-item (click)="showToast()">
+        <img src="../../assets/poke_gold.jpg" alt="" class="image">
+        <ion-label>Pokémon Gold</ion-label>
+      </ion-item>
+  
+      <ion-item (click)="showToast()">
+        <img src="../../assets/zelda_.jpg" alt="" class="image">
+        <ion-label>The Legend of Zelda</ion-label>
+      </ion-item>
+  
+      <ion-item (click)="showToast()">
+        <img src="../../assets/Pac-Man.jpg" alt="" class="image">
+        <ion-label>Pac-Man</ion-label>
+      </ion-item>
+  
+      <ion-item (click)="showToast()">
+        <img src="../../assets/mario.jpg" alt="" class="image">
+        <ion-label>Super Mario Deluxe</ion-label>
+      </ion-item>
+  
+    </ion-list>  
+    <ion-button color="primary" (click)="showToast()">Add to Cart</ion-button>
+</ion-content>

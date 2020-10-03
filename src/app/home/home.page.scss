@@ -1,0 +1,21 @@
+ion-content {
+  ion-list {
+    ion-item {
+        img {
+        width: 90px;
+        height: 90px;
+      }
+
+      ion-label {
+        margin-left: 10px;
+      }
+
+      margin-bottom: 20px;
+    }
+  }
+
+  .btn-choose {
+    margin: 0 auto;
+  }
+
+}

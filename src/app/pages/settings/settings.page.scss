@@ -1,0 +1,28 @@
+* {
+    font-weight: 300;
+}
+
+ion-content {
+    --background: #fafafa;
+}
+
+ion-text {
+    position: absolute;
+    top: 5%;
+
+    h1 {
+        font-size: 42px;
+    }
+
+    p{
+        font-size: 14px;
+        color: #696969;
+    }
+}
+
+.actions {
+    position: absolute;
+    width: 90%;
+    top: 50%;
+}
+
